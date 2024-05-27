@@ -58,6 +58,23 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
+.title {
+  font-family: Century Gothic, sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.titulo1 {
+  text-align: left;
+  margin-left: 15%;
+}
+
 .banner_img {
   animation: movimiento 2.5s linear infinite;
 }
@@ -208,6 +225,38 @@ nav ul li a:hover {
   100% {
     transform: translateY(0);
   }
+}
+table {
+  width: 70%;
+  border: 1px solid black;
+}
+
+.td1 {
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(78, 196, 178, 0.54);
+  font-family: Tahoma;
+  color: white;
+  border: 1px solid black;
+}
+
+.h1 {
+  text-align: center;
+  margin-left: 5%;
+  padding: auto;
+}
+
+h1 {
+  text-align: left;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=estilo2.css.map */

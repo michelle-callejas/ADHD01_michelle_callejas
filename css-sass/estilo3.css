@@ -182,6 +182,18 @@ nav ul li a:hover {
   animation-delay: 4s;
 }
 
+.title {
+  font-family: Century Gothic, sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+}
+
 @keyframes burbujas {
   0% {
     bottom: 0;

@@ -50,6 +50,21 @@ nav ul li a:hover {
   color: rgba(223, 245, 232, 0.8431372549);
 }
 
+.title {
+  font-family: Century Gothic, sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  justify-content: space-around;
+}
+
 .bg_animate {
   width: 100%;
   height: 100vh;
@@ -173,6 +188,50 @@ nav ul li a:hover {
   100% {
     transform: translateY(0);
   }
+}
+.variable {
+  width: 150px;
+  background-color: white;
+  font-style: italic;
+  font-family: Impact;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  row-gap: 50px;
+  column-gap: 15px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+article {
+  width: 33.3333333333%;
+  border: 5px dotted green;
+  border-radius: 25px;
+  border-style: dotted;
+}
+
+img {
+  height: 200px;
+  width: 60%;
+}
+
+ol {
+  width: 80%;
+  font-family: Verdana;
+  font-style: italic;
+  text-align: left;
+  background-color: hsl(204, 31%, 49%);
+  list-style: decimal;
+  font-size: 40px;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=estilo1.css.map */

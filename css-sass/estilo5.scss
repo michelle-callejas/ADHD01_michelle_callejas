@@ -246,6 +246,17 @@ nav {
         opacity: 0;
     }
   }
+  .title{
+    font-family: $font-stack;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .titulo{
+    text-align: center;
+  }
   
   @keyframes movimiento{
     0%{

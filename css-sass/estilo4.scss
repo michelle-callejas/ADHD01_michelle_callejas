@@ -6,6 +6,17 @@ $font-weight: 700;
 $background-color: rgba(233, 159, 190, 0.774);
 $container-color: white;
 
+.title{
+  font-family: $font-stack;
+  font-weight: 800;
+  font-size: 40px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.titulo{
+  text-align: center;
+}
 
 
 // Mixin
@@ -280,4 +291,10 @@ div{
   text-align: center;
   font-size: 30px;
   border: 1px solid black;
+ }
+
+ @for $i from 1 to $columnas+1{
+  .grid-#{$i}{
+    grid-template-columns: repeat($i,percentage(1/$i));
+  }
  }

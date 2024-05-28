@@ -1,3 +1,7 @@
+body {
+  font-family: Century Gothic, sans-serif;
+}
+
 .container {
   background: white;
   -webkit-border-radius: 5px;
@@ -220,6 +224,395 @@ nav ul li a:hover {
   100% {
     transform: translateY(0);
   }
+}
+.grid {
+  display: grid;
+}
+
+.div {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+.grid-1 {
+  grid-template-columns: repeat(1, 100%);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 50%);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 33.3333333333%);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 25%);
+}
+
+.grid-5 {
+  grid-template-columns: repeat(5, 20%);
+}
+
+.grid-6 {
+  grid-template-columns: repeat(6, 16.6666666667%);
+}
+
+.grid-7 {
+  grid-template-columns: repeat(7, 14.2857142857%);
+}
+
+.grid-8 {
+  grid-template-columns: repeat(8, 12.5%);
+}
+
+.grid-9 {
+  grid-template-columns: repeat(9, 11.1111111111%);
+}
+
+.grid-10 {
+  grid-template-columns: repeat(10, 10%);
+}
+
+.grid-11 {
+  grid-template-columns: repeat(11, 9.0909090909%);
+}
+
+.grid-12 {
+  grid-template-columns: repeat(12, 8.3333333333%);
+}
+
+.border-width-1px {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-2px {
+  border-width: 2px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-3px {
+  border-width: 3px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-4px {
+  border-width: 4px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-5px {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-6px {
+  border-width: 6px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-7px {
+  border-width: 7px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-8px {
+  border-width: 8px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-9px {
+  border-width: 9px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-10px {
+  border-width: 10px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-11px {
+  border-width: 11px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-12px {
+  border-width: 12px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-13px {
+  border-width: 13px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-14px {
+  border-width: 14px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-15px {
+  border-width: 15px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-16px {
+  border-width: 16px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-17px {
+  border-width: 17px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-18px {
+  border-width: 18px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-19px {
+  border-width: 19px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-20px {
+  border-width: 20px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-21px {
+  border-width: 21px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-22px {
+  border-width: 22px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-23px {
+  border-width: 23px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-24px {
+  border-width: 24px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-25px {
+  border-width: 25px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-26px {
+  border-width: 26px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-27px {
+  border-width: 27px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-28px {
+  border-width: 28px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-29px {
+  border-width: 29px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.border-width-30px {
+  border-width: 30px;
+  border-style: dotted;
+  border-color: rgb(56, 80, 174);
+  gap: 15px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.rojo {
+  background: url("https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg");
+  color: rgb(169, 71, 217);
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.verde {
+  background: url("https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg");
+  color: rgb(169, 71, 217);
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.amarrillo {
+  background: url("https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg");
+  color: rgb(169, 71, 217);
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.azul {
+  background: url("https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg");
+  color: rgb(169, 71, 217);
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.rosado {
+  background: url("https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg");
+  color: rgb(169, 71, 217);
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.gris {
+  background: url("https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg");
+  color: rgb(169, 71, 217);
+  background-size: cover;
+  border-width: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.contenedor {
+  width: 95%;
+  margin: 10px;
+  padding: 50px;
+  background-color: rgba(233, 215, 134, 0.774);
 }
 
 /*# sourceMappingURL=estilo5.css.map */

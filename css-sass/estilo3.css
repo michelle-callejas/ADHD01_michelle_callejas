@@ -221,5 +221,49 @@ nav ul li a:hover {
     transform: translateY(0);
   }
 }
+tr {
+  background-color: rgba(194, 139, 139, 0.874);
+  font-family: Century Gothic;
+  font-weight: 500;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid pink;
+}
+
+td {
+  gap: 25px;
+}
+
+table {
+  width: 60%;
+  margin: auto;
+  padding-left: 5%;
+  gap: 30px;
+}
+
+.arti {
+  width: 100%;
+  height: 200px;
+  background-color: #63ca75;
+}
+
+.ancho {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.upper-text::after {
+  content: "ESTE TEXTO ESTA ESCRITO EN MAYUSCULAS";
+  color: rgb(158, 79, 184);
+  font-family: century gothic;
+  font-weight: 900;
+}
 
 /*# sourceMappingURL=estilo3.css.map */

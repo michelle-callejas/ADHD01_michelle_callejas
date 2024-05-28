@@ -254,6 +254,7 @@ nav {
     }
     100%{
         bottom: 100vh;
+        
         opacity: 0;
     }
   }
@@ -269,3 +270,58 @@ nav {
         transform: translateY(0);
     }
   }
+
+  tr{
+    background-color: rgba(194, 139, 139, 0.874);
+    font-family: Century Gothic;
+    font-weight: 500;
+    width: 100%;
+    margin: auto;
+    padding:0;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid pink;
+   
+  }
+  td{
+    gap: 25px;
+  }
+
+  table{
+    width: 60%;
+    margin: auto;
+    padding-left: 5%;
+    gap: 30px;
+  }
+$colorBase: rgb(137, 215, 151);
+
+  .arti{
+    width: 100%;
+    height: 200px;
+    background-color:darken($colorBase, 10%);
+  }
+
+    //funcion matemática
+
+    $value: 1;
+    $percent: percentage($value);
+    
+    .ancho {
+      height: $percent;
+      width: $percent;
+      border: 1px solid black ;
+      background-color: black;
+    }
+
+
+$my-string: "este texto esta escrito en mayusculas";
+$upper-string: to-upper-case($my-string);
+
+.upper-text::after {
+  content: $upper-string;
+  color: rgb(158, 79, 184); 
+  font-family: century gothic;
+  font-weight: 900;
+}

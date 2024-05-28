@@ -18,7 +18,7 @@ $container-color: white;
 
 // Uso de variables y mixin
 body {
-    $font-stack: Helvetica, sans-serif;
+   font-family:  $font-stack;
 }
 @mixin center-flex {
     display: flex;
@@ -269,3 +269,59 @@ nav {
         transform: translateY(0);
     }
   }
+
+  $columnas: 12;
+.grid{
+  display: grid;
+}
+
+.div{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid black;
+ }
+
+  @for $i from 1 to $columnas+1{
+    .grid-#{$i}{
+      grid-template-columns: repeat($i,percentage(1/$i));
+    }
+   }
+
+   $border-width: 1px;
+   $max-width: 30px;
+   
+   @while $border-width <= $max-width {
+     .border-width-#{$border-width} {
+       border-width: $border-width;
+       border-style: dotted; 
+       border-color: rgb(56, 80, 174);
+       gap: 15px;
+       font-size: 50px;
+       text-align: center;
+     }
+     $border-width: $border-width + 1px;
+   }
+
+
+   $colors: rojo, verde, amarrillo, azul, rosado, gris;
+    
+   
+     @each $color in $colors {
+       .#{$color} {
+        background: url('https://img.freepik.com/vector-premium/fondo-acuarela-elementos-dibujados-mano_23-2148867453.jpg');
+        color: rgb(169, 71, 217);
+        background-size: cover;
+         border-width: 2px;
+         border-style: solid;
+         text-align: center;
+       }
+     }
+   
+
+     .contenedor{
+      width: 95%;
+      margin: 10px;
+      padding: 50px;
+      background-color: $background-color;
+     }

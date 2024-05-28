@@ -303,8 +303,27 @@ table {
 
 }
 
+.td0 {
+  @include estilo;
+  background-color: rgba(124, 203, 124, 0.932);
+}
+
 .td1 {
   @include estilo;
+}
+
+.estilo2{margin: 10px;
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(201, 139, 216, 0.54);
+  font-family: Tahoma;
+  color: white;
+  border: 1px solid black;
+
+}
+
+.td2 {
+  @extend .estilo2 !optional;
 }
 .h1{
   text-align: center;

@@ -6,15 +6,16 @@ $font-weight: 700;
 $background-color: rgba(233, 159, 190, 0.774);
 $container-color: white;
 
-.title{
+.title {
   font-family: $font-stack;
   font-weight: 800;
   font-size: 40px;
   background-color: transparent;
   text-align: center;
+  color: mediumvioletred;
 }
 
-.titulo{
+.titulo {
   text-align: center;
 }
 
@@ -278,5 +279,65 @@ nav {
   }
 }
 
+.modificador {
+  font: size 40px;
+  font-family: Century gothic;
+  animation: movimiento 2.5s linear infinite;
+  padding-left: 30%;
+}
+
+body {
+  background-color: $background-color;
+
+}
+
+main {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@mixin respond-to($media) {
+  @if $media == 'small' {
+    @media (max-width: 599px) { @content; }
+  } @else if $media == 'medium' {
+    @media (min-width: 600px) and (max-width: 1199px) { @content; }
+  } @else if $media == 'large' {
+    @media (min-width: 1200px) { @content; }
+  }
+}
+$theme: light;
+
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: lightgrey;
 
 
+  @include respond-to('small') {
+    @if $theme == 'dark' {
+      background-color: darkgrey;
+    } @else {
+      background-color: lightcoral;
+    }
+  }
+
+  @include respond-to('medium') {
+    width: 75%;
+    @if $theme == 'dark' {
+      background-color: grey;
+    } @else {
+      background-color: lightblue;
+    }
+  }
+
+  @include respond-to('large') {
+    width: 50%;
+    @if $theme == 'dark' {
+      background-color: black;
+    } @else {
+      background-color: $theme;
+    }
+  }
+}

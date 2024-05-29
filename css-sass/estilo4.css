@@ -4,6 +4,7 @@
   font-size: 40px;
   background-color: transparent;
   text-align: center;
+  color: mediumvioletred;
 }
 
 .titulo {
@@ -221,63 +222,45 @@ nav ul li a:hover {
     transform: translateY(0);
   }
 }
-.grid {
-  display: grid;
+.modificador {
+  font: size 40px;
+  font-family: Century gothic;
+  animation: movimiento 2.5s linear infinite;
+  padding-left: 30%;
 }
 
-div {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 30px;
-  border: 1px solid black;
+body {
+  background-color: rgba(233, 159, 190, 0.774);
 }
 
-.grid-1 {
-  grid-template-columns: repeat(1, 100%);
+main {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.grid-2 {
-  grid-template-columns: repeat(2, 50%);
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: lightgrey;
 }
-
-.grid-3 {
-  grid-template-columns: repeat(3, 33.3333333333%);
+@media (max-width: 599px) {
+  .container {
+    background-color: lightcoral;
+  }
 }
-
-.grid-4 {
-  grid-template-columns: repeat(4, 25%);
+@media (min-width: 600px) and (max-width: 1199px) {
+  .container {
+    width: 75%;
+    background-color: lightblue;
+  }
 }
-
-.grid-5 {
-  grid-template-columns: repeat(5, 20%);
-}
-
-.grid-6 {
-  grid-template-columns: repeat(6, 16.6666666667%);
-}
-
-.grid-7 {
-  grid-template-columns: repeat(7, 14.2857142857%);
-}
-
-.grid-8 {
-  grid-template-columns: repeat(8, 12.5%);
-}
-
-.grid-9 {
-  grid-template-columns: repeat(9, 11.1111111111%);
-}
-
-.grid-10 {
-  grid-template-columns: repeat(10, 10%);
-}
-
-.grid-11 {
-  grid-template-columns: repeat(11, 9.0909090909%);
-}
-
-.grid-12 {
-  grid-template-columns: repeat(12, 8.3333333333%);
+@media (min-width: 1200px) {
+  .container {
+    width: 50%;
+    background-color: light;
+  }
 }
 
 /*# sourceMappingURL=estilo4.css.map */
